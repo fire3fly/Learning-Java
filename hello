@@ -1,0 +1,21 @@
+//Hello.java 
+//This program says hello, and calculates set totals.
+
+public class Hello {
+    public static void main(String[] args) {
+
+        System.out.println("Hello, Carmen!");
+
+        int myFirstNumber = (10 + 5) + (2 * 10);
+        int mySecondNumber = 12;
+        int myThirdNumber = myFirstNumber * 2;
+
+        int myTotal = myFirstNumber + mySecondNumber + myThirdNumber;
+        int myNewNumber = 1000 - myTotal;
+        System.out.println("Your calculation is: " + myFirstNumber);
+        System.out.println(myTotal);
+        System.out.println(myNewNumber);
+
+
+    }
+}
